@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width= largura do dispositivo, escala inicial =1.0"
+    />
+    <title>Document</title>
+    <script>
+      var n1 = prompt("digite um valor");
+      var n2 = prompt("digite outro valor");
+
+      // Para realizar os cálculos é necessário fazer
+      // a conversão
+      n1 = parseInt(n1);
+      n2 = parseInt(n2);
+
+      var soma = n1 + n2;
+      var subtrair = n1 - n2;
+      var multiplicar = n1 * n2;
+      var dividir = n1 / n2;
+      var resto = n1 % n2;
+
+      alert(
+        "Os resultados São: \ nSoma " +
+          soma +
+          "\nSubtração " +
+          subtrair +
+          "\nMultiplicar: " +
+          multiplicar +
+          "\nDividir: " +
+          dividir +
+          "\nResto da Divisão: " +
+          resto
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
